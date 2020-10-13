@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="nik:jar3" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5455516-59be-4950-9f2f-c1a4d3441df1" name="Default Changelist" comment="Релиз 3.7. Локализация доп окон" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZLHrD3yLW3DfUsgKXlQqL9lMLy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3448276" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Projects\nik" />
+      <recent name="A:\Projects\nik\src\main\resources" />
+      <recent name="A:\Projects\nik\Locale\OptionLayoutLocale" />
+      <recent name="A:\Projects\nik\src\main\java\ru\nik\GUI\registrationForm" />
+      <recent name="A:\Projects\nik\src\main\java\ru\nik\dbpackage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RegisterApp">
+    <configuration name="Clazz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nik.GUI.Clazz" />
+      <module name="nik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nik.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nik.clientPackage.Client" />
+      <module name="nik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nik.clientPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nik.GUI.FullApplication" />
+      <module name="nik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nik.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nik.GUI.registrationForm.RegisterApp" />
+      <module name="nik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nik.GUI.registrationForm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nik.serverPackage.Server" />
+      <module name="nik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nik.serverPackage.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RegisterApp" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.FullApplication" />
+        <item itemvalue="Application.Clazz" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5455516-59be-4950-9f2f-c1a4d3441df1" name="Default Changelist" comment="" />
+      <created>1584611650982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584611650982</updated>
+      <workItem from="1584611654351" duration="4640000" />
+      <workItem from="1584626448721" duration="6532000" />
+      <workItem from="1584633187647" duration="2230000" />
+      <workItem from="1584635733996" duration="487000" />
+      <workItem from="1584636707000" duration="1551000" />
+      <workItem from="1584644978302" duration="1686000" />
+      <workItem from="1584687597463" duration="640000" />
+      <workItem from="1584732655260" duration="836000" />
+      <workItem from="1584834791776" duration="117000" />
+      <workItem from="1584835451099" duration="271000" />
+      <workItem from="1585131182499" duration="75000" />
+      <workItem from="1585149409587" duration="5122000" />
+      <workItem from="1585209960766" duration="197000" />
+      <workItem from="1585225004806" duration="519000" />
+      <workItem from="1585212120953" duration="10094000" />
+      <workItem from="1585411955808" duration="6691000" />
+      <workItem from="1585651102336" duration="3944000" />
+      <workItem from="1585730431744" duration="334000" />
+      <workItem from="1585925496245" duration="6117000" />
+      <workItem from="1586258242340" duration="5104000" />
+      <workItem from="1586417069647" duration="5548000" />
+      <workItem from="1586422795857" duration="69000" />
+      <workItem from="1586424872487" duration="21000" />
+      <workItem from="1586441250106" duration="2469000" />
+      <workItem from="1586505342034" duration="277000" />
+      <workItem from="1586506653850" duration="11026000" />
+      <workItem from="1586536940740" duration="5727000" />
+      <workItem from="1586606201116" duration="339000" />
+      <workItem from="1586948775801" duration="2625000" />
+      <workItem from="1587042729748" duration="19000" />
+      <workItem from="1587110930275" duration="2291000" />
+      <workItem from="1587122462807" duration="5010000" />
+      <workItem from="1587206103967" duration="42000" />
+      <workItem from="1587480683587" duration="5360000" />
+      <workItem from="1587492494487" duration="597000" />
+      <workItem from="1587502311164" duration="7395000" />
+      <workItem from="1587544645844" duration="1533000" />
+      <workItem from="1587549914088" duration="5038000" />
+      <workItem from="1587559669895" duration="64000" />
+      <workItem from="1587570440056" duration="4111000" />
+      <workItem from="1587578567840" duration="1377000" />
+      <workItem from="1587629685699" duration="1689000" />
+      <workItem from="1587633696313" duration="2327000" />
+      <workItem from="1587636195926" duration="8411000" />
+      <workItem from="1587647787108" duration="992000" />
+      <workItem from="1587649410991" duration="7138000" />
+      <workItem from="1587661233435" duration="659000" />
+      <workItem from="1587712065921" duration="8567000" />
+      <workItem from="1587920573266" duration="2803000" />
+      <workItem from="1587930601740" duration="3389000" />
+      <workItem from="1587934400261" duration="1339000" />
+      <workItem from="1587936395327" duration="1631000" />
+      <workItem from="1587938624183" duration="482000" />
+      <workItem from="1587991681138" duration="1927000" />
+      <workItem from="1588418631036" duration="9938000" />
+      <workItem from="1588429084690" duration="10256000" />
+      <workItem from="1588503239054" duration="445000" />
+      <workItem from="1588690984896" duration="1497000" />
+      <workItem from="1588702284001" duration="1307000" />
+      <workItem from="1588925080780" duration="2719000" />
+      <workItem from="1588928395586" duration="443000" />
+      <workItem from="1588933329461" duration="1024000" />
+      <workItem from="1588936056881" duration="959000" />
+      <workItem from="1589105841287" duration="3318000" />
+      <workItem from="1589109966207" duration="7206000" />
+      <workItem from="1589121749069" duration="2928000" />
+      <workItem from="1589126248543" duration="4591000" />
+      <workItem from="1589130994302" duration="3844000" />
+      <workItem from="1589134989708" duration="2416000" />
+      <workItem from="1589272430499" duration="2980000" />
+      <workItem from="1589276949099" duration="4777000" />
+      <workItem from="1589282018779" duration="173000" />
+      <workItem from="1589566212099" duration="785000" />
+      <workItem from="1589791490935" duration="3800000" />
+      <workItem from="1589969370466" duration="1865000" />
+      <workItem from="1590054545551" duration="1899000" />
+      <workItem from="1590063038290" duration="533000" />
+      <workItem from="1590696512539" duration="8791000" />
+      <workItem from="1590745008055" duration="2459000" />
+      <workItem from="1590749753310" duration="17217000" />
+      <workItem from="1590771467851" duration="1362000" />
+      <workItem from="1590774940964" duration="5001000" />
+      <workItem from="1590788695038" duration="132000" />
+      <workItem from="1590789436394" duration="2000" />
+      <workItem from="1590789998504" duration="1351000" />
+      <workItem from="1590823725944" duration="5316000" />
+      <workItem from="1590831196289" duration="22312000" />
+      <workItem from="1590925718905" duration="5098000" />
+      <workItem from="1590942128195" duration="15000" />
+      <workItem from="1590943677172" duration="2978000" />
+      <workItem from="1591029775107" duration="5344000" />
+      <workItem from="1591264741529" duration="21232000" />
+      <workItem from="1591298731673" duration="14821000" />
+      <workItem from="1591344106647" duration="3147000" />
+      <workItem from="1591678421803" duration="5028000" />
+      <workItem from="1591686477019" duration="1203000" />
+      <workItem from="1591994505480" duration="232000" />
+      <workItem from="1591995454577" duration="703000" />
+      <workItem from="1592126841409" duration="8650000" />
+      <workItem from="1592299165592" duration="1602000" />
+      <workItem from="1592326551157" duration="9563000" />
+      <workItem from="1592388017147" duration="25694000" />
+      <workItem from="1592489761996" duration="7410000" />
+      <workItem from="1592509651868" duration="24000" />
+      <workItem from="1592662500745" duration="33781000" />
+      <workItem from="1592699574942" duration="167000" />
+      <workItem from="1592733351210" duration="25155000" />
+      <workItem from="1592768402159" duration="41000" />
+      <workItem from="1592768561083" duration="14246000" />
+      <workItem from="1592812428309" duration="9694000" />
+      <workItem from="1601457436513" duration="9760000" />
+      <workItem from="1601671068295" duration="4262000" />
+      <workItem from="1601726977476" duration="1083000" />
+      <workItem from="1601814955625" duration="15000" />
+      <workItem from="1601817810779" duration="2481000" />
+      <workItem from="1601841568856" duration="595000" />
+      <workItem from="1601848927485" duration="1420000" />
+      <workItem from="1601879918619" duration="7000" />
+      <workItem from="1602527831389" duration="7232000" />
+      <workItem from="1602543996793" duration="2375000" />
+    </task>
+    <task id="LOCAL-00012" summary="Релиз 1.07. Теперь общение между клиентом и сервером осуществляется не *простыми строками*. Передается объект Request, в котором содержится информация о запросе">
+      <created>1587125548921</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587125548921</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Релиз 1.08. Каждый запрос исполняется в отедьном потоке. Управляет этими потоками ExecuteService">
+      <created>1587485253560</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587485253560</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Релиз 1.08.01. Начал делать регистрацию. Пока не настроена отправка пакета с командами и не переботаны команды. Завтра много работы">
+      <created>1587510211170</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587510211170</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Релиз 1.08.02. Разные виды ответов клиенту. Клиент реагирует в зависимости от типа ответа">
+      <created>1587546208223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587546208223</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Релиз 1.08.03. Адекватный посыл данных клиенту. Передается Result, вместо строки">
+      <created>1587552338641</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587552338641</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Релиз 1.08.04. Теперь только зарегестрированным пользователям отсылаются обновления сервера. В ином случае клиент не получает доступ к командам">
+      <created>1587554108061</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587554108061</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Релиз 1.08.05. Теперь аккаунты можно регестрировать. Есть проверка на уже существующий аккаунт. Well done">
+      <created>1587573494221</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587573494221</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Релиз 1.08.06. Теперь в объектах фиксируется создатель. Некоторые команды моет вполнять только root">
+      <created>1587640463597</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587640463597</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Релиз 1.08.07. Только собственники могут удалять элементы ( свои )">
+      <created>1587642543559</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587642543559</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Релиз 1.08.08. Клиент может автопереподключатся тем же аккаунтом , в который он зашел до отключения сервера">
+      <created>1587653744125</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1587653744125</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Релиз 1.08.09. Возможное переподключение даже во время авторизации. Ток с багами">
+      <created>1587658906973</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1587658906973</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Релиз 1.08.10. Фикс багов. Вложенность обработки скриптов">
+      <created>1587723449349</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1587723449349</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Релиз 1.08.11. Команды работают с бд. Добавлен DAO для класса Ticket. Переработа логика некоторых команд ( clear оччищает из колекции только объекты пользователя)">
+      <created>1588428350452</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1588428350453</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Релиз 2.0.0 Добавлена регистрация пользователей в бд. добавлен общий чат и приватныые чаты">
+      <created>1588437470415</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1588437470415</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Релиз 2.0.1 Пофикшен баг с отправкой сообщений">
+      <created>1588438833965</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1588438833965</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Релиз 2.0.2 Невозможна отправка неавторизированныи пользователям">
+      <created>1588692489050</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1588692489050</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Релиз 2.1.0. Передается между клиентом и сервером только json.">
+      <created>1589114825388</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1589114825388</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Релиз 2.1.1. прием-обработка - отправка ответа в разных потоках">
+      <created>1589116940911</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1589116940911</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Релиз 2.2.0 ( bad) разрабатываю систему токенов. Пока не работает">
+      <created>1589130847249</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1589130847249</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Релиз 2.2.1. Разработана система токенов. Валидация пользователй проходит по ним">
+      <created>1589137403472</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1589137403472</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Релиз 2.2.2. Хэширование паролей в ДБ ( хэш - SHA-1)">
+      <created>1589278499639</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1589278499639</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Релиз 2.3. Из-зв тз сделал пересыл стандартной сериализацией джавы. Выпилю при первой же возможности">
+      <created>1589969901560</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1589969901560</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Релиз 3.0 Готовлю гуи. Доделана форма окна регитсрации">
+      <created>1590705833300</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1590705833300</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Релиз 3.0.1 добавил кнопку инфо и новое окошко">
+      <created>1590772836394</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1590772836394</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Релиз 3.1.0 Добавил главное окно и почти полный фронт енд для него.">
+      <created>1590786166085</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1590786166085</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Релиз 3.2 Нормализовал прием ответов от клиента. Ответы в зависимости от типов помещаются в очереди и потоки из гуи мониторят эти очереди">
+      <created>1590826423284</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1590826423284</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Релиз 3.3. Обработка профиля опльзователя в зависимости от его данных в БД. Обновление аватарки">
+      <created>1590833834941</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1590833834941</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Релиз 3.4 начал организовывать переход между вкладками">
+      <created>1590835429813</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1590835429813</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Релиз 3.5. Настроил ( вроде ) работу чатика">
+      <created>1590837883793</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1590837883793</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Релиз 3.6. Добавление элементов в коллекцию через гуи">
+      <created>1590845348613</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1590845348613</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Релиз 3.7. Вывод результатов на окно результата">
+      <created>1590846444499</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1590846444499</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Релиз 3.8. почти работает таблица с добавлением элементов">
+      <created>1590858193752</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1590858193752</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Релиз 3.9. Автообновление таблицы у всех клиентов">
+      <created>1590930256031</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1590930256031</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Релиз 3.10 Микрофиксы">
+      <created>1591035139486</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1591035139486</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Релиз 3.11. Автоподключение к серверу. Минификсы">
+      <created>1591274403874</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1591274403874</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Релиз 3.2 Пытаюсь делать отрисовку">
+      <created>1591310543518</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1591310543518</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Релиз 3.2.1 Сделал отрисовку">
+      <created>1591311901089</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1591311901089</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Релиз 3.2.2. Обновление элементов из графической отрисовки">
+      <created>1591683358747</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1591683358747</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Релиз 3.2.3. Более красивая отрисвока. Микрофиксы">
+      <created>1592130850386</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1592130850386</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Релиз 3.3.0 Добавил раскраску объектов разных пользователей">
+      <created>1592330651609</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1592330651610</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Релиз 3.3.1. микрофиксы">
+      <created>1592433667862</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1592433667862</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Релиз 3.4.0 Фильтрация и сортировка столбцов">
+      <created>1592483204930</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1592483204930</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Релиз 3.4.1. делаю локализацию">
+      <created>1592489741708</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1592489741708</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Релиз 3.4.2. почти готова локализация на английском">
+      <created>1592494313115</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1592494313116</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Релиз 3.5. Обновление данных через таблицу">
+      <created>1592685705998</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1592685705999</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Релиз 3.5.1 Фикс багов при обновлении из коллекции">
+      <created>1592688481395</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1592688481395</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Релиз 3.5.1 фикс багов при отправлке сообщений">
+      <created>1592692430271</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1592692430271</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Релиз 3.6. готовлю локализацию на русском">
+      <created>1592699730782</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1592699730782</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Релиз 3.7. Локализация доп окон">
+      <created>1592812630628</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1592812630629</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Релиз 3.1.0 Добавил главное окно и почти полный фронт енд для него." />
+    <MESSAGE value="Релиз 3.2 Нормализовал прием ответов от клиента. Ответы в зависимости от типов помещаются в очереди и потоки из гуи мониторят эти очереди" />
+    <MESSAGE value="Релиз 3.3. Обработка профиля опльзователя в зависимости от его данных в БД. Обновление аватарки" />
+    <MESSAGE value="Релиз 3.4 начал организовывать переход между вкладками" />
+    <MESSAGE value="Релиз 3.5. Настроил ( вроде ) работу чатика" />
+    <MESSAGE value="Релиз 3.6. Добавление элементов в коллекцию через гуи" />
+    <MESSAGE value="Релиз 3.7. Вывод результатов на окно результата" />
+    <MESSAGE value="Релиз 3.8. почти работает таблица с добавлением элементов" />
+    <MESSAGE value="Релиз 3.9. Автообновление таблицы у всех клиентов" />
+    <MESSAGE value="Релиз 3.10 Микрофиксы" />
+    <MESSAGE value="Релиз 3.11. Автоподключение к серверу. Минификсы" />
+    <MESSAGE value="Релиз 3.2 Пытаюсь делать отрисовку" />
+    <MESSAGE value="Релиз 3.2.1 Сделал отрисовку" />
+    <MESSAGE value="Релиз 3.2.2. Обновление элементов из графической отрисовки" />
+    <MESSAGE value="Релиз 3.2.3. Более красивая отрисвока. Микрофиксы" />
+    <MESSAGE value="Релиз 3.3.0 Добавил раскраску объектов разных пользователей" />
+    <MESSAGE value="Релиз 3.3.1. микрофиксы" />
+    <MESSAGE value="Релиз 3.4.0 Фильтрация и сортировка столбцов" />
+    <MESSAGE value="Релиз 3.4.1. делаю локализацию" />
+    <MESSAGE value="Релиз 3.4.2. почти готова локализация на английском" />
+    <MESSAGE value="Релиз 3.5. Обновление данных через таблицу" />
+    <MESSAGE value="Релиз 3.5.1 Фикс багов при обновлении из коллекции" />
+    <MESSAGE value="Релиз 3.5.1 фикс багов при отправлке сообщений" />
+    <MESSAGE value="Релиз 3.6. готовлю локализацию на русском" />
+    <MESSAGE value="Релиз 3.7. Локализация доп окон" />
+    <option name="LAST_COMMIT_MESSAGE" value="Релиз 3.7. Локализация доп окон" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602546164784">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="272" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1602546164784" />
+    <state x="541" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601571664830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="541" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601571664830" />
+    <state x="442" y="179" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602544171009">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="442" y="179" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1602544171009" />
+    <state x="499" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1602529969444" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602536246163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602536246163" />
+    <state width="1316" height="223" key="GridCell.Tab.0.bottom" timestamp="1602546708009">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="223" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1602546708009" />
+    <state width="1059" height="393" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602536248937" />
+    <state width="1316" height="223" key="GridCell.Tab.0.center" timestamp="1602546708009">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="223" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1602546708009" />
+    <state width="1059" height="393" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602536248937" />
+    <state width="1316" height="223" key="GridCell.Tab.0.left" timestamp="1602546708009">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="223" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1602546708009" />
+    <state width="1059" height="393" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602536248937" />
+    <state width="1316" height="223" key="GridCell.Tab.0.right" timestamp="1602546708009">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="223" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1602546708009" />
+    <state width="1059" height="393" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602536248937" />
+    <state x="220" y="0" key="SettingsEditor" timestamp="1602544177914">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="220" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1602544177914" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602530002737" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/nik/TestPak.java</url>
+          <line>7</line>
+          <properties class="ru.nik.TestPak">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/nik/serverPackage/Server.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/nik/GUI/registrationForm/RegisterApp.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

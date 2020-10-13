@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="main_frame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="options_loyaut" layoutY="26.0" prefHeight="534.0" prefWidth="784.0">
+         <children>
+            <Button fx:id="add_element_button" layoutX="52.0" layoutY="95.0" mnemonicParsing="false" onAction="#addElement" prefHeight="79.0" prefWidth="130.0" text="Добавить элемент" />
+            <Text fx:id="option_title" layoutX="185.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Управление коллекцией">
+               <font>
+                  <Font name="Serif Regular" size="40.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="74.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/add.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="remove_element_button" layoutX="237.0" layoutY="95.0" mnemonicParsing="false" onAction="#removeElement" prefHeight="79.0" prefWidth="130.0" text="Удалить элемент" />
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="259.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/remove.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="help_button" layoutX="421.0" layoutY="95.0" mnemonicParsing="false" onAction="#help" prefHeight="79.0" prefWidth="130.0" text="помощь" />
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="443.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/help.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="sort_button" layoutX="596.0" layoutY="95.0" mnemonicParsing="false" onAction="#sort" prefHeight="79.0" prefWidth="130.0" text="отсортировать " />
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="618.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/sort.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="74.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/info.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="info_button" layoutX="52.0" layoutY="232.0" mnemonicParsing="false" onAction="#info" prefHeight="79.0" prefWidth="130.0" text="информация" />
+            <Button fx:id="add_if_button1" layoutX="236.0" layoutY="232.0" mnemonicParsing="false" onAction="#addIf" prefHeight="79.0" prefWidth="130.0" text="условные команды " />
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="258.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/add_if.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="clear_button" layoutX="421.0" layoutY="232.0" mnemonicParsing="false" onAction="#clear" prefHeight="79.0" prefWidth="130.0" text="очистка" />
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="443.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/clear.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="history_button" layoutX="596.0" layoutY="232.0" mnemonicParsing="false" onAction="#history" prefHeight="79.0" prefWidth="130.0" text="история" />
+            <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="618.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/history.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="168.0" fitWidth="413.0" layoutX="182.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/momitor.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="monitor_title" layoutX="280.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Монитор результата">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <ScrollPane fx:id="result_text_area" layoutX="190.0" layoutY="360.0" prefHeight="135.0" prefWidth="397.0">
+               <content>
+                  <TextArea fx:id="result_area" prefHeight="130.0" prefWidth="394.0" />
+               </content></ScrollPane>
+            <Button fx:id="to_collection_button" layoutX="642.0" layoutY="495.0" mnemonicParsing="false" onAction="#toCollection" prefHeight="31.0" prefWidth="130.0" text="Коллекция" />
+            <ImageView fitHeight="35.0" fitWidth="130.0" layoutX="642.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="clearScreenButton" layoutX="324.0" layoutY="498.0" mnemonicParsing="false" onAction="#clearScreen" prefHeight="26.0" prefWidth="118.0" text="Очистить " />
+            <Text layoutX="259.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" wrappingWidth="18.13671875" />
+            <Button fx:id="translate_en_button" layoutX="6.0" layoutY="443.0" mnemonicParsing="false" onAction="#translateToEn" prefHeight="36.0" prefWidth="165.0" text="translate_en" />
+            <Button layoutX="6.0" layoutY="480.0" mnemonicParsing="false" onAction="#translateToRU" prefHeight="35.0" prefWidth="166.0" text="translate_ru" />
+            <TextField fx:id="id_value" layoutX="279.0" layoutY="178.0" prefHeight="17.0" prefWidth="53.0" promptText="id">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="table_loyaout" cacheShape="false" layoutY="34.0" prefHeight="519.0" prefWidth="776.0" style="-fx-background-color: #FF8C00;" visible="false">
+         <children>
+            <ScrollPane fx:id="table_scroll" layoutY="7.0" prefHeight="478.0" prefWidth="776.0">
+               <content>
+                  <TableView fx:id="objectTable" editable="true" onSort="#sortTable" prefHeight="471.0" prefWidth="778.0" />
+               </content>
+            </ScrollPane>
+            <Button fx:id="to_collection_options" layoutY="488.0" mnemonicParsing="false" onAction="#toCollectionOptions" prefHeight="31.0" prefWidth="150.0" text="управление коллекцией" />
+            <Button fx:id="to_graphic_collection" layoutX="625.0" layoutY="488.0" mnemonicParsing="false" onAction="#toGraphic" prefHeight="31.0" prefWidth="150.0" text="Графика" />
+            <TextField fx:id="filter_area" layoutX="218.0" layoutY="491.0" prefHeight="26.0" prefWidth="340.0" promptText="введит имя для сортировки" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="vizual_layout" layoutX="-3.0" layoutY="26.0" prefHeight="534.0" prefWidth="784.0" visible="false">
+         <children>
+            <ImageView fx:id="canvas_image" fitHeight="493.0" fitWidth="561.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+            <Text fx:id="vis_name" layoutX="630.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" wrappingWidth="86.0">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <TextField fx:id="ticket_visual_name" layoutX="566.0" layoutY="58.0" />
+            <Text fx:id="vis_price" layoutX="623.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена" wrappingWidth="86.0">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <TextField fx:id="ticket_visual_price" layoutX="566.0" layoutY="149.0" />
+            <Text fx:id="vis_owner" layoutX="607.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Владелец" wrappingWidth="118.39999999999986">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <TextField fx:id="ticket_visual_owner" layoutX="566.0" layoutY="254.0" />
+            <Text fx:id="vis_type" layoutX="628.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип" wrappingWidth="76.80002441406236">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <TextField fx:id="ticket_visual_type" layoutX="566.0" layoutY="344.0" />
+            <Button fx:id="to_collection_from_button" layoutX="575.0" layoutY="469.0" mnemonicParsing="false" onAction="#toCollectionFromVizual" prefHeight="44.0" prefWidth="150.0" text="Таблица элементов" />
+            <Button fx:id="update_ticket_button" layoutX="575.0" layoutY="379.0" mnemonicParsing="false" onAction="#updateTicketAction" prefHeight="44.0" prefWidth="150.0" text="Обновить элемент" />
+            <Canvas fx:id="vizual_area" height="499.0" layoutX="14.0" layoutY="17.0" width="561.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

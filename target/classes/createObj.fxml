@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="main_anchor" layoutX="17.0" layoutY="16.0" prefHeight="292.0" prefWidth="399.0" style="-fx-background-color: #FFE4B5;">
+         <children>
+            <Text fx:id="title" layoutX="148.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Создание объекта">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Button fx:id="create_object_button" layoutX="130.0" layoutY="234.0" mnemonicParsing="false" onAction="#createObject" prefHeight="44.0" prefWidth="156.0" text="Создать">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Text fx:id="ticket_name" layoutX="14.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя билета" wrappingWidth="106.9367733001709" />
+            <Text layoutX="14.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Коориданата x" wrappingWidth="106.9367733001709" fx:id="x_cor" />
+            <Text fx:id="y_cor" layoutX="14.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Коориданата y" wrappingWidth="106.9367733001709" />
+            <Text fx:id="type" layoutX="27.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип билета" wrappingWidth="93.33673858642578" />
+            <TextField fx:id="bilet_name" layoutX="121.0" layoutY="47.0" prefHeight="26.0" prefWidth="251.0" />
+            <TextField layoutX="121.0" layoutY="78.0" prefHeight="26.0" prefWidth="251.0" fx:id="x_coordinate_fiied" />
+            <TextField fx:id="y_coordinate_fiied1" layoutX="121.0" layoutY="108.0" prefHeight="26.0" prefWidth="251.0" />
+            <RadioButton fx:id="expensive_choice" layoutX="120.0" layoutY="173.0" mnemonicParsing="false" onAction="#pushExpensive" text="Дорогой" />
+            <RadioButton fx:id="economical_choise" layoutX="121.0" layoutY="208.0" mnemonicParsing="false" onAction="#pushEconomical" text="Экономный" />
+            <RadioButton fx:id="cheap_choise" layoutX="247.0" layoutY="173.0" mnemonicParsing="false" onAction="#pushCheap" text="Дешевый" />
+            <RadioButton fx:id="budgetary_choise" layoutX="247.0" layoutY="208.0" mnemonicParsing="false" onAction="#pushBudgetary" text="Бюджетный" />
+            <Text fx:id="price" layoutX="27.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена" wrappingWidth="93.33673858642578" />
+            <TextField fx:id="price_field" layoutX="121.0" layoutY="142.0" prefHeight="26.0" prefWidth="251.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

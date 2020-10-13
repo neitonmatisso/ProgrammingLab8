@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1044.0" y="1054.0">ticketClasses.Coordinates</node>
+    <node x="607.0" y="0.0">fileAdministrator.FileManager</node>
+    <node x="1974.0" y="825.5">commands.AddIfMaxCommand</node>
+    <node x="2744.0" y="825.5">commands.RemoveCommand</node>
+    <node x="3453.0" y="825.5">commands.SaveCommand</node>
+    <node x="0.0" y="0.0">collectionWorkers.ColletionWorker</node>
+    <node x="772.0" y="813.0">commands.ExecuteScriptCommand</node>
+    <node x="4241.0" y="825.5">commands.AddIfMinCommand</node>
+    <node x="2464.0" y="667.0">commands.Command</node>
+    <node x="0.0" y="825.5">commands.InfoCommand</node>
+    <node x="2387.0" y="825.5">commands.LoadCommand</node>
+    <node x="0.0" y="1054.0">ticketClasses.Ticket</node>
+    <node x="3809.0" y="825.5">commands.AddElementCommand</node>
+    <node x="4652.0" y="825.5">commands.ClearCommand</node>
+    <node x="3146.0" y="813.0">commands.HelpCommand</node>
+    <node x="432.0" y="1054.0">factories.IdController</node>
+    <node x="662.0" y="1054.0">commands.ControlUnit</node>
+    <node x="1749.0" y="1054.0">mainPackage.Main</node>
+    <node x="285.0" y="0.0">factories.Factory</node>
+    <node x="1495.0" y="1054.0">ticketClasses.Address</node>
+    <node x="285.0" y="156.0">factories.TicketFactory</node>
+    <node x="1144.0" y="825.5">commands.RemoveGreaterCommand</node>
+    <node x="0.0" y="301.0">collectionWorkers.ArrayListWorker</node>
+    <node x="1598.0" y="825.5">commands.SortCommand</node>
+    <node x="374.0" y="825.5">commands.UpdateCommand</node>
+    <node x="1332.0" y="1054.0">ticketClasses.TicketType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="collectionWorkers.ArrayListWorker" target="collectionWorkers.ColletionWorker">
+      <point x="0.0" y="-160.5" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="commands.RemoveCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="2935.0" y="793.0" />
+      <point x="2569.576923076923" y="793.0" />
+      <point x="14.076923076922867" y="28.0" />
+    </edge>
+    <edge source="commands.LoadCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="commands.AddIfMaxCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="2170.5" y="793.0" />
+      <point x="2541.423076923077" y="793.0" />
+      <point x="-14.076923076922867" y="28.0" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.Command">
+      <point x="0.0" y="-98.0" />
+      <point x="3289.5" y="783.0" />
+      <point x="2583.653846153846" y="783.0" />
+      <point x="28.15384615384619" y="28.0" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="commands.Command">
+      <point x="0.0" y="-98.0" />
+      <point x="948.0" y="763.0" />
+      <point x="2499.1923076923076" y="763.0" />
+      <point x="-56.30769230769238" y="28.0" />
+    </edge>
+    <edge source="commands.SaveCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="3621.0" y="773.0" />
+      <point x="2597.730769230769" y="773.0" />
+      <point x="42.230769230769056" y="28.0" />
+    </edge>
+    <edge source="commands.SortCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="1776.0" y="783.0" />
+      <point x="2527.346153846154" y="783.0" />
+      <point x="-28.15384615384619" y="28.0" />
+    </edge>
+    <edge source="factories.TicketFactory" target="factories.Factory">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="53.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="4834.0" y="743.0" />
+      <point x="2639.9615384615386" y="743.0" />
+      <point x="84.46153846153857" y="28.0" />
+    </edge>
+    <edge source="commands.AddElementCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="4015.0" y="763.0" />
+      <point x="2611.8076923076924" y="763.0" />
+      <point x="56.30769230769238" y="28.0" />
+    </edge>
+    <edge source="commands.RemoveGreaterCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="1361.0" y="773.0" />
+      <point x="2513.269230769231" y="773.0" />
+      <point x="-42.230769230769056" y="28.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="563.0" y="753.0" />
+      <point x="2485.1153846153848" y="753.0" />
+      <point x="-70.38461538461524" y="28.0" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="4436.5" y="753.0" />
+      <point x="2625.8846153846152" y="753.0" />
+      <point x="70.38461538461524" y="28.0" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.Command">
+      <point x="0.0" y="-85.5" />
+      <point x="177.0" y="743.0" />
+      <point x="2471.0384615384614" y="743.0" />
+      <point x="-84.46153846153857" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="2384.9999999999986" y="969.9999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

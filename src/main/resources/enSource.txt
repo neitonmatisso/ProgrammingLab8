@@ -1,0 +1,12 @@
+add_element_button=add
+remove_element_button=remove
+help_button=help
+sort_button=sort
+info_button=info
+add_if_button1=add_if
+clear_button=clear
+history_button=history
+to_collection_button=to collection
+to_chat_button=to profile
+clearScreenButton=clear screen
+monitor_title=result monitor

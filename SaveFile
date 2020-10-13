@@ -1,0 +1,2 @@
+{"id":11,"name":"K","coordinates":{"x":123.0,"y":123.0},"creationDate":"Apr 23, 2020, 3:01:52 PM","price":123,"owner":"Nik"}
+{"id":12,"name":"Nik","coordinates":{"x":123.0,"y":123.0},"creationDate":"Apr 23, 2020, 3:02:50 PM","price":123,"type":"VIP","owner":"Serg"}
